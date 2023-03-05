@@ -21,18 +21,15 @@ public class Author {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(firstName, surname);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Author author = (Author) o;
+        return Objects.equals(firstName, author.firstName) && Objects.equals(surname, author.surname);
     }
 
     @Override
-    public boolean equals(Object other) {
-        if (this.getClass() != other.getClass()) {
-            return false;
-        }
-        Author maks = (Author) other;
-        return firstName.equals(maks.firstName);
-
+    public int hashCode() {
+        return Objects.hash(firstName, surname);
     }
-
 }
