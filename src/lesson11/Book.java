@@ -1,4 +1,7 @@
 package lesson11;
+
+import java.util.Objects;
+
 public class Book {
     private int publicationYear;
     private final String name;
@@ -20,5 +23,20 @@ public class Book {
     public String getName() {
         return name;
     }
+    public String toString() {
+        return "Название книги "+this.name+" Год публикации "+this.publicationYear;
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return publicationYear == book.publicationYear && Objects.equals(name, book.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(publicationYear, name);
+    }
 }
