@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c331a53-645d-43d7-ac42-b15892167e3e" name="Changes" comment="All Homework12">
+    <list default="true" id="4c331a53-645d-43d7-ac42-b15892167e3e" name="Changes" comment="All Homework12V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson11/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson11/Author.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677927442411</updated>
-      <workItem from="1677927443595" duration="19252000" />
+      <workItem from="1677927443595" duration="20243000" />
     </task>
     <task id="LOCAL-00001" summary="2nd step">
       <created>1677929126386</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678032031579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All Homework12V2">
+      <created>1678036217910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678036217910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +143,7 @@
     <MESSAGE value="2nd step" />
     <MESSAGE value="All Homework11" />
     <MESSAGE value="All Homework12" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Homework12" />
+    <MESSAGE value="All Homework12V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Homework12V2" />
   </component>
 </project>
