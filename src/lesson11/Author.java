@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Author {
     private final String firstName;
     private final String surname;
+    Book book;
     public Author (String name, String surname) {
         this.firstName = name;
         this.surname = surname;
